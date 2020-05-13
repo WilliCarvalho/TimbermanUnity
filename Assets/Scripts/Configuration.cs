@@ -11,6 +11,7 @@ public class Configuration : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Add truks to game
         for (int i = 0; i < initialQuantity; i++)
         {        
             GameObject currentTrunk = Instantiate(trunk, new Vector2(0f, basePosition), transform.rotation);
